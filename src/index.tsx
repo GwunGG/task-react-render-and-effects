@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
-import { APIControls } from './resources/APIControls';
+import { APIControls, sources } from './resources/APIControls';
 import { Effects } from './Effects';
-
-const sources = ['first', 'second'];
 
 function App() {
     const [currentSource, setCurrentSource] = useState(sources[0]);
